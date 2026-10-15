@@ -27,9 +27,9 @@
 4. 点击"开始处理"按钮
 
 ### 方法二：直接运行Python程序
-1. 确保已安装依赖：
+1. 确保已安装依赖（仅拖拽功能需要；不安装时仍可用“选择文件夹”按钮）：
    ```bash
-   pip install tkinterdnd2 pillow
+   pip install tkinterdnd2
    ```
 
 2. 运行GUI版本：
@@ -80,8 +80,8 @@
 ## 系统要求
 
 - Windows 10/11
-- Python 3.7+
-- 依赖包：tkinterdnd2, pillow
+- Python 3.7+（GUI 依赖标准库 tkinter）
+- 依赖包：tkinterdnd2（可选，仅用于拖拽文件夹；未安装时不影响按钮选择与命令行版本）
 
 ## 文件说明
 

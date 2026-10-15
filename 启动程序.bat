@@ -19,7 +19,7 @@ REM 检查依赖是否安装
 python -c "import tkinterdnd2" >nul 2>&1
 if errorlevel 1 (
     echo [提示] 正在安装依赖包...
-    pip install tkinterdnd2 pillow
+    pip install tkinterdnd2
     echo.
 )
 
